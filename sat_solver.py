@@ -1,4 +1,5 @@
-#!/usr/bin/env python3
+# this file contains functions to solve formulas in conjunctive normal form (CNF),
+# and uses it to solve a sudoku board of any given size
 
 import sys
 import typing
