@@ -12,7 +12,7 @@ def query_category(lat,long,radius,category,all_pois,category_count=0):
     performs a query request from a category with coords lat,long and radius (in meters)
     """
     count=0
-    api_key = 'AIzaSyAnoLRvipKvr4L6UfpzRRIpCPzh2LYKkSA'
+    api_key = API_KEY
     url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
     initial_url = url + '?location=' + str(lat)+'%2C'+str(long) + '&radius=' + str(radius) + '&type=' + category + '&key=' + api_key
     
