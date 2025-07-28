@@ -8,6 +8,8 @@ a collection of projects from classes and other research
 
 **sat_solver**: solve formulas in conjunctive normal form (CNF), and solve a sudoku board of any given size
 
+**credit_card_fraud**: comparing different ML methods on a credit card fraud dataset
+
 ### C++
 
 **painterly_rendering**: create painting-like styles from photos
