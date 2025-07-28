@@ -1,0 +1,7 @@
+dependencies:
+  - numpy
+  - pandas
+  - scikit-learn
+  - kagglehub
+  - kagglehub[pandas-datasets]
+  - matplotlib
